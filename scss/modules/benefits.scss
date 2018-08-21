@@ -1,0 +1,57 @@
+.benefits {
+    background-image: url("../images/Drone.png");
+    background-repeat: no-repeat;
+    background-position: 700px -40px;
+    &__inner {
+        width: 950px;
+        margin: 0 auto;
+    }
+    &__title {
+        width: fit-content;
+        margin-top: 110px;
+        font-size: 48px;
+        font-weight: bold;
+        background: linear-gradient(to right, #cb0034, #e06900);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    &__subtitle {
+        width: 740px;
+        margin-top: 25px;
+        font-size: 18px;
+        line-height: 36px;
+        color: #5e6372;
+    }
+    &__content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 320px;
+        padding: 60px 0;
+    }
+    &__benefit {
+        display: flex;
+        width: 460px;
+        margin-right: 50px;
+        margin-bottom: 40px;
+    }
+}
+
+.benefit {
+    &__number {
+        align-self: center;
+        min-width: 50px;
+        margin-right: 25px;
+        border: 1px solid #a7acbc;
+        border-radius: 50%;
+        font-size: 24px;
+        line-height: 50px;
+        text-align: center;
+        color: #3f4e76;
+    }
+    &__description {
+        font-size: 14px;
+        line-height: 24px;
+        color: #a7acbc
+    }
+}
